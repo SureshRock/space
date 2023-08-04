@@ -31,7 +31,11 @@
             left: 15em;
             width: 10em;
             height: 10em;
-            border-radius: 50%;
+            background-image: url(./sun.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
         }
 
         .earth,
@@ -99,24 +103,36 @@
             width: 20px !important;
             height: 20px !important;
             border-radius: 2px;
-            background: linear-gradient(360deg, orange, orangered);
-            margin: 8px 20px 0px 0px;
+            background-image: url(./sun.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+            margin: 8px 10px 0px 0px;
         }
 
         .earthcolor {
             width: 20px !important;
             height: 20px !important;
             border-radius: 2px;
-            background: linear-gradient(360deg, lightgreen, navy);
-            margin: 8px 20px 0px 0px;
+            background-image: url(./earth.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+            margin: 8px 10px 0px 0px;
         }
 
         .mooncolor {
             width: 20px !important;
             height: 20px !important;
             border-radius: 2px;
-            background: linear-gradient(360deg, black, white);
-            margin: 8px 20px 0px 0px;
+            background-image: url(./moon.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 100%;
+            margin: 8px 10px 0px 0px;
         }
 
         .color h1 {
@@ -163,7 +179,7 @@
 <body>
     <h1 class="space">SPACE</h1>
     <div class="container">
-        <div class="sun"><img src="./sun.png" alt="sun image" width="100px" /></div>
+        <div class="sun"></div>
         <div class="earth">
             <div class="moon"></div>
         </div>
